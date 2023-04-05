@@ -251,7 +251,17 @@ if __name__ == "__main__":
         choices=["zh-cn", "zh-tw"],
         help="Choose lang for zh-cn (Simplified Chinese) or zh-tw (Traditional Chinese)",
     )
+
+
     options = parser.parse_args()
+    #ian
+    #default_book_name = "test_books/animal_farm.epub"
+    #default_book_name = "test_books/margaret-mitchell_gone-with-the-wind.epub"
+    #default_book_name = "test_books/Harvard_Business_Review_Guides_Ultimate_Boxed_Set_16_Books_UTF8.epub"
+    #default_book_name = "test_books/lemo.epub"
+    default_book_name = "test_books/Stephen_King_-_Duma_Key_-_2008.epub"
+    options.book_name = options.book_name or default_book_name
+
     NO_LIMIT = options.no_limit
     IS_TEST = options.test
     TEST_NUM = options.test_num

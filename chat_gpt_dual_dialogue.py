@@ -7,7 +7,7 @@ import os
 
 # 使用您的 OpenAI API 密鑰進行身份驗證
 #openai.api_key = os.getenv("OPENAI_API_KEY")  # 將您的 API 密鑰設置為環境變量，或者直接在這裡填寫
-openai.api_key ="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"
+openai.api_key =""
 def chat_gpt_response(prompt):
     response = openai.Completion.create(
         engine="text-davinci-002",

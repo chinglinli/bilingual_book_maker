@@ -259,6 +259,7 @@ if __name__ == "__main__":
     #default_book_name = "test_books/margaret-mitchell_gone-with-the-wind.epub"
     #default_book_name = "test_books/Harvard_Business_Review_Guides_Ultimate_Boxed_Set_16_Books_UTF8.epub"
     #default_book_name = "test_books/lemo.epub"
+    #default_book_name = "test_books/Stephen_King_-_Duma_Key_-_2008.epub"
     default_book_name = "test_books/Stephen_King_-_Duma_Key_-_2008.epub"
     options.book_name = options.book_name or default_book_name
 

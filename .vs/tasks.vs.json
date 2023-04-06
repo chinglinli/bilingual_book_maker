@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "工作-requirements",
+      "appliesTo": "requirements.txt",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "工作-make_test_ebook",
+      "appliesTo": ".github/workflows/make_test_ebook.yaml",
+      "type": "launch"
+    }
+  ]
+}

@@ -27,7 +27,8 @@ def chat_gpt_conversation(start_prompt, rounds=5, summary_round=None):
         gpt1_message = chat_gpt_response(conversation_history)
         conversation_history += f"\nGP-1: {gpt1_message}"
 
-        gpt2_message = chat_gpt_response(conversation_history + f"\nGP-1: {gpt1_message}")
+        #gpt2_message = chat_gpt_response(conversation_history + f"\nGP-1: {gpt1_message}")
+        gpt2_message = f"\nGP-2:請解釋為什麼  "
         conversation_history += f"\nGP-2: {gpt2_message}"
 
         if summary_round is not None and i == summary_round - 1:

@@ -17,7 +17,7 @@ def chat_gpt_response(prompt):
         stop=None,
     )
     return response.choices[0].text.strip()
-
+   
 def chat_gpt_conversation(start_prompt, rounds=5, summary_round=None):
     conversation_history = start_prompt
     for i in range(rounds):

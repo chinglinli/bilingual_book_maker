@@ -15,7 +15,7 @@ def generate_text(prompt):
     )
     return response.choices[0].text.strip()
 
-# 對話歷史
+# 對話歷史Win11NB modify
 conversation_history = ""
 
 # GPT-1 提問

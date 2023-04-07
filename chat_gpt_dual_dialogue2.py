@@ -3,6 +3,7 @@
 import openai
 import os
 from os import environ as env
+# 使用您的  API 密鑰進行身份驗證 WIN11NB Ian 2023/4/7 01:30 
 # 使用您的  API 密鑰進行身份驗證 WIN10 Desktop Ian
 # 使用您的 API 密鑰進行身份驗證 WIN11NB Ian
 #openai.api_key = os.getenv("OPENAI_API_KEY")  # 將您的 API 密鑰設置為環境變量，或者直接在這裡填寫

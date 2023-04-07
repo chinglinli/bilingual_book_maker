@@ -1,4 +1,4 @@
 {
   "SuppressConfigureTestFrameworkPrompt": "true",
-  "Interpreter": "Global|PythonCore|3.11"
+  "Interpreter": "Global|PythonCore|3.9"
 }
